@@ -1,0 +1,38 @@
+.main-menu {
+  position: absolute;
+  left: 41%;
+  margin-top: 15rem;
+  padding-right: 31.8%;
+  background: $color-1;
+
+  .menu {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    height: 5rem;
+    align-items:center;
+
+    &::before {
+      content: '';
+      width: 5rem;
+      height: 5rem;
+      background:$color-1;
+      position: absolute;
+      top: 0;
+      right: 100%;
+      border-top-left-radius: 5rem;
+    }
+
+    ul li {
+      display: inline-block;
+    }
+
+    a {
+      display: block;
+      padding: 0 1.6rem;
+      font-size: 1.6rem;
+      text-decoration: none;
+      color:$color-White;
+    }
+  }
+}
