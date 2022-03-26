@@ -12,17 +12,14 @@
   }
 
   .main__header-logo {
-    img {
-      margin-top: 2rem;
-    }
+    margin-top: 6.4rem;
   }
  
   &__inner-social {
     display: flex;
     align-items:center;
     justify-content: flex-end;
-    margin-bottom: 3rem;
-    padding-top: 3rem;
+    margin-bottom: 5rem;
     margin-right: 10rem;
   }
 
@@ -54,18 +51,22 @@
         height: 3rem;
         border-top: 1px solid;
         position: absolute;
+        border-bottom: 1px solid;
         top:50%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(-10deg);
         border-radius:50%;
+        
       }
 
+     
+
       &.link-instagram {
-        border-color: $color-4;
-        color: $color-4;
+        border-color: $color-12;
+        color: $color-15;
 
         &::before {
-         border-color:$color-4;
+         border-color:$color-12;
         }
       }
 
@@ -119,8 +120,8 @@
   }
 
   .social-list a {
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 4rem;
+    height: 4rem;
     
   }
 
@@ -130,8 +131,8 @@
       color:$color-White;
       position: absolute;
       left: 91%;
-      top: 56%;
-      font-size: 1.8rem;
+      top: 24%;
+      font-size: 2.5rem;
     }
   }
 }
