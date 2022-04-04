@@ -37,7 +37,6 @@
           'container_id' => '',
           'menu_class' => 'menu'
         );
-
         wp_nav_menu($args);
       ?>
     </nav>

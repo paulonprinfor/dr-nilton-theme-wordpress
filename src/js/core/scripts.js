@@ -1,11 +1,10 @@
 $(function() {
 
-  $('.main-banners__slider').slick({
+  $('.banners-slider').slick({
     prevArrow:
-      '<button class="banner-nav banner-nav-prev"></button>',
+      '<button class="button-nav button-nav-prev"></button>',
     nextArrow:
-      '<button class="banner-nav banner-nav-next"></button>',
-      
+      '<button class="button-nav button-nav-next"></button>',
   });
 
   $('.treatments__carousel').slick({
