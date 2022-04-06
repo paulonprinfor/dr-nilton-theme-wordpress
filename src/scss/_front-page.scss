@@ -1,0 +1,83 @@
+.article-treatments {
+  background: url('../src/img/bg-treatments.png');
+  max-width: 100%;
+  padding: 5rem 0;
+  display: block;
+
+  .centered-container {
+    max-width: 68%;
+    
+  }
+
+  .slick-track {
+    text-align: center;
+  }
+
+  .article-treatments__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    
+    h1 {
+      background:$color-7;
+      width: 30rem;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 20rem;
+      color:$color-3;
+      font-size: 4.3rem;
+    }
+
+    img {
+      position: relative;
+      left: -1rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .treatment-item {
+    h3 {
+      max-width: 28.5rem;
+      font-size: 3rem;
+      color:$color-3;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  .article-treatments__carousel {
+    position: relative;
+
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      margin-top: 5rem;
+
+      li + li {
+        margin-left: 1.2rem;
+      }
+      
+      li.slick-active {
+        button {
+          background:$color-White;
+        }
+      }
+
+      button {
+        display: block;
+        font-size: 0;
+        width: 120px;
+        height: 2px;
+        background:$color-2;
+        border:none;
+      }
+    }
+    .wp-post-image {
+      margin-bottom:-6rem;
+    }
+  }
+}

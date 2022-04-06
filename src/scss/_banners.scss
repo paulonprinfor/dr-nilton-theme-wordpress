@@ -10,7 +10,7 @@
     width:100%;
     height: 5.2rem;
     background-repeat: repeat-x;
-    background-color: #f5eacf;
+     background-color: #f5eacf;
   }
 
   .banner-item {
@@ -81,8 +81,6 @@
 
 .slick-current h1 {
   animation:cusor 500ms infinite normal, show-legenda  3s  1s normal;
-  
-  
 }
 
 @keyframes show-legenda {

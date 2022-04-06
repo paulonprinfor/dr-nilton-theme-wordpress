@@ -4,4 +4,5 @@
       <?php get_banners();?>
     </div>
   </section>
+  <?php get_template_part('template-parts/article-treatments') ?>
 <?php get_footer(); ?>
