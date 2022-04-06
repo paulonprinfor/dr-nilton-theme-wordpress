@@ -7,7 +7,7 @@ $(function() {
       '<button class="button-nav button-nav-next"></button>',
   });
 
-  $('.treatments__carousel').slick({
+  $('.article-treatments__carousel').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
