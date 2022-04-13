@@ -84,9 +84,7 @@
   background-color: $color-7;
   padding: 5rem;
   max-width: 100%;
-  .centered-container {
-  }
-
+  
   .home-page__content {
     display: flex;
     
@@ -115,7 +113,6 @@
     color:$color-3;
     line-height: 2.8rem;
     margin-bottom: 2rem;
-
   }
   
   .home-page-item__image {
@@ -138,6 +135,71 @@
       padding-top: 1rem;
      
     }
-   }
+  }
+}
+
+.section-schedule {
+  position: relative;
+  background-color:$color-2;
+  max-width: 100%;
+  height: 0 5.5rem;
+  padding: 5.3rem;
+  .section-schedule__title {
+    display: flex;
+    align-items:center;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+
+    h1 {
+      margin-left: 1rem;
+      font-size: 4.2rem;
+      color: $color-11;
+    }
+  }
+
+  .section-sechedule__image {
+    display: flex;
+  }
+  .section-sechedule__contact {
+    display: flex;
+    form {
+    position: relative;
+    span {
+      input {
+        width: 30rem;
+        padding: 1rem;
+        border: solid 0.3rem;
+        border-color: $color-7;
+        border-radius:5rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    label {
+      display: flex;
+      margin-left: 1rem;
+      font-size: 1.8rem;
+      color: $color-17;
+    }
+  
+    .wpcf7-submit {
+      position: absolute;
+      top: 60%;
+      left: 108%;
+      width: 5.5rem;
+      height: 5.5rem;
+      border-radius:50%;
+      border:none;
+      color: transparent;
+      background: url('../src/img/img8.png' ) center center no-repeat;
+      background-color:$color-blue;
+    }
+  }
+  .section-sechedule__image {
+      position: absolute;
+      left: 45%;
+      top: 8%;
+    }
+  }
 }
 
