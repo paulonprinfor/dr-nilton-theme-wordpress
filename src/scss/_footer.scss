@@ -1,0 +1,100 @@
+.article-footer {
+  position: relative;
+  background:url('../src/img/bg-footer.png') center center no-repeat;
+  max-width: 100%;
+  height: 30.4rem;
+
+  .centered-container {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+
+    .article-footer__address {
+      color:$color-White;
+      font-family: sans-serif;
+      width: 46rem;
+      font-size: 1.8rem;
+      margin-right: 20rem;
+      line-height: 3rem;
+      padding-top: 12rem;
+
+      .article-footer__phone {
+        margin-top: 2rem;
+      }
+    }
+
+    .article-footer__logo {
+      margin-bottom: 6rem;
+    }
+
+    .article-footer__social-networks {
+      position: absolute;
+      left: 65%;
+      top: 75%;
+
+      .social-list {
+        display: flex;
+        list-style-type: none;
+        margin-right: 2rem;
+    
+        li + li {
+          margin-left: 1.2rem;
+        }
+    
+        a {
+          position: relative;
+          display: flex;
+          width: 3.8rem;
+          height: 3.8rem;
+          border:1px solid;
+          border-radius: 50%;
+          font-size: 1.8rem;
+          justify-content: center;
+          align-items:center;
+          text-decoration: none;
+          background: $color-White;
+    
+          &::before {
+            content:'';
+            width: 3rem;
+            height: 3rem;
+            border-top: 1px solid;
+            position: absolute;
+            border-bottom: 1px solid;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-10deg);
+            border-radius:50%;
+          }
+    
+          &.link-instagram {
+            border-color: $color-12;
+            color: $color-15;
+    
+            &::before {
+             border-color:$color-12;
+            }
+          }
+    
+          &.link-facebook {
+            border-color:$color-5;
+            color: $color-5;
+    
+            &::before {
+              border-color: $color-5;
+            }
+          }
+    
+          &.link-whatsapp {
+            border-color:$color-6;
+            color: $color-6;
+    
+            &::before {
+              border-color:$color-6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
