@@ -36,3 +36,55 @@
     }
   }
 }
+
+
+@media (max-width:1800px) {
+  .main-menu {
+    padding-right: 26.3%;
+    .menu a {
+      font-size: 1.4rem;
+    }
+  } 
+}
+
+@media (max-width:1680px) {
+  .main-menu {
+    padding-right: 24%;
+  }
+}
+
+@media (max-width:1600px) {
+  .main-menu {
+    padding-right: 22%;
+  }
+}
+
+@media (max-width:1500px) {
+  .main-menu {
+    padding-right: 19.8%;
+  }
+}
+
+@media (max-width:1400px) {
+  .main-menu {
+    padding-right: 17%;
+  }
+}
+
+@media (max-width:1300px) {
+  .main-menu {
+    padding-right: 13.8%;
+  }
+}
+
+
+@media (max-width:1200px) {
+  .main-menu {
+    padding-right: 10%;
+  }
+}
+
+
+@media (max-width:1024px) {
+
+}
