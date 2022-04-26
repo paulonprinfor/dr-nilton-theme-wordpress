@@ -89,7 +89,6 @@
     display: flex;
     
     >div {
-      width: 50%;
       &.home-page-content__item {
         padding-left: 4rem;
       }
@@ -297,4 +296,441 @@
     z-index: 10;
   }
 }
+
+@media (max-width:1800px) {
+  .home-page {
+    p {
+      font-size: 1.7rem;
+    }
+
+    .home-page-item__image1 {
+      position: absolute;
+      top: 83%;
+    }
+  }
+
+  .section-schedule {
+    .section-schedule__title {
+      padding-top: 3rem;
+    }
+  }
+}
+
+@media (max-width:1680px) {
+  .home-page {
+    .centered-container {
+      max-width: 1080px;
+    }
+    
+    .home-page-item__image1 {
+      position: absolute;
+      top: 81%;
+    }
+  }
+}
+
+
+@media (max-width:1600px) {
+  .article-treatments {
+    
+    .centered-container {
+      max-width: 80%;
+    }
+  }
+
+  .home-page {
+    
+    .home-page-item__image1 {
+      position: absolute;
+      top: 80%;
+    }
+  }
+
+  .section-schedule {
+
+    .section-sechedule__contact {
+      
+      .section-sechedule__image {
+        position: absolute ;
+        left: 44%;
+      }
+    } 
+  }
+}
+
+
+@media (max-width:1500px) {
+  .article-treatments {
+
+    .article-treatments__title {
+      h1 {
+        font-size: 4rem;
+        width: 28rem;
+      }
+    }
+  }
+
+  .home-page {
+
+    .centered-container {
+     
+    }
+
+    .home-page-item__image1 {
+      position: absolute;
+      top: 74%;
+
+      .star {
+        width: 5rem;
+        height: 5rem;
+        padding: 0.6rem;
+      }
+    }
+
+    .home-page__tilte {
+      font-size: 2.2rem;
+    }
+  }
+
+  .section-curiosities {
+
+    .curiosities-bg {
+      position: absolute;
+      left: 25%;
+
+      img {
+        max-width: 80%;
+      }
+    }
+  }
+} 
+
+@media (max-width:1400px) {
+  .article-treatments {
+    
+    .centered-container {
+      max-width: 88%;
+    }
+  }
+
+  .home-page {
+
+    .home-page-item__image1 {
+      position: absolute;
+      top: 73%;
+    }
+  }
+}
+
+@media (max-width:1400px) {
+  .home-page {
+
+    .home-page-item__image1 {
+      position: absolute;
+      top: 70%;
+    }
+  }
+}
+
+@media (max-width:1200px) {
+  .article-treatments {
+    
+   .article-treatments__carousel{
+     
+    .wp-post-image {
+        max-width: 90%;
+    }
+   } 
+  }
+
+  .home-page {
+
+    .home-page-item__image1 {
+      position: absolute;
+      top: 66%;
+    }
+  }
+
+  .section-schedule {
+
+    .section-schedule__title {
+      h1 {
+        font-size: 3.2rem;
+      }
+    }
+
+    .section-sechedule__contact {
+      
+      .section-sechedule__image {
+        position: absolute ;
+        left: 38%;
+      }
+    }
+  }
+
+  .section-curiosities {
+
+    .curiosities-bg {
+      position: absolute;
+      left: 31%;
+    }
+  }
+}
+
+
+@media (max-width:1024px) {
+  .article-treatments {
+    
+    .centered-container {
+
+    }
+    .article-treatments__title {
+      h1 {
+        font-size: 3rem;
+        width: 22rem;
+      }
+    }
+
+    .article-treatments__carousel {
+      
+      .wp-post-image {
+        height: 25rem;
+        max-width: 90%;
+        margin-bottom: -4rem;
+      }
+    }
+
+    .treatment-item {
+      h3 {
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  .home-page {
+    position: relative;
+    padding: 10rem;
+    
+    .centered-container {
+      text-align: center;
+
+      .home-page__content {
+        display: block;
+
+        .home-page__tilte {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+
+    .home-page-item__image {
+      position: absolute;
+      top: 80%;
+    }
+
+    .home-page-item__image1 {
+      position: absolute;
+      top: 93%;
+      left: 80%;
+    }
+  }
+
+  .section-schedule  {
+    padding: 4.1rem;
+    
+    .section-schedule__title {
+      padding-top: 4rem;
+      h1 {
+        font-size: 2.6rem;
+        
+      }
+    }
+  }
+}
+
+@media (max-width:1000px) {
+  .article-treatments {
+    
+    .article-treatments__carousel {
+
+      .wp-post-image  {
+        height: 24rem;
+        max-width: 90%;
+      }
+    }
+  }
+
+  .section-schedule {
+    padding: 3.1rem;
+  }
+
+  .section-curiosities {
+
+    .curiosities-bg {
+      margin-left: 4rem;
+    }
+  }
+}
+
+@media (max-width:850px) {
+  
+  .section-schedule {
+
+    .centered-container {
+      text-align: center;
+
+      .section-schedule__title {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    
+    .section-sechedule__contact {
+      
+      display: flex;
+      justify-content: center;
+      
+      .section-sechedule__image {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width:600px) {
+  .article-treatments {
+
+    .article-treatments__title {
+
+      h1 {
+        font-size: 2.5rem;
+        width: 20rem;
+      }
+    }
+  }
+
+  .home-page {
+
+    .home-page__tilte {
+      font-size: 1.6rem;
+    }
+
+    .home-page__content {
+
+      div.home-page-content__item {
+        margin-left: -4rem;
+      }
+    }
+
+    .home-page-item__image {
+      margin-top: 7rem;
+    }
+
+    .home-page-item__image1 {
+
+      .star {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  }
+
+  .section-schedule {
+
+    .section-sechedule__contact {
+
+      form {
+
+        .wpcf7-submit {
+         position: relative;
+         left: 3rem;
+        }
+      }
+    }
+  }
+
+  .section-curiosities {
+
+    .curiosities-content {
+
+      a {
+        font-size: 2rem;
+      }
+    }
+
+    .button {
+      width: 62rem;
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width:500px) {
+  
+  .article-treatments {
+
+    .article-treatments__carousel {
+
+      .slick-dots button {
+        width: 6rem;
+      }
+    } 
+  } 
+
+  .home-page {
+
+    .home-page__tilte {
+      font-size: 1.2rem;
+    }
+  }
+
+  .section-curiosities {
+
+    .curiosities-content {
+
+      a {
+        font-size: 1.5rem;
+      }
+    }
+
+    .button {
+      width: 50rem;
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width:400px) {
+  .home-page  {
+
+    .home-page-item__image1 {
+      position: absolute;
+      top: 89%;
+      left: 78%;
+    }
+  }
+}
+
+@media (max-width:360px) {
+  .home-page {
+
+    .home-page-item__image1 {
+      position: absolute;
+      top: 88%;
+    }
+    
+    .centered-container {
+
+      .home-page__content {
+
+        .home-page__tilte {
+          display: block;
+        }
+
+      }
+    }
+  }
+}
+
 

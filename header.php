@@ -12,6 +12,9 @@
 </head>
 <body <?php body_class(); ?>>
 <?php global $mydata; ?>
+<div class="menu-button">
+  <div class="menu-button-center"></div>
+</div>
 <header class="main-header">
   <div class="centered-container">
     <div class="main__header-logo">
@@ -24,8 +27,8 @@
         <?php echo $mydata->get_social(true, 'social__list') ?>
         <div class="form">
           <?php get_search_form();?>
-        <span class="fa fa-lg fa-search"></span>
-      </div>
+          <span class="fa fa-lg fa-search"></span>
+        </div>
      </div>
     </div>
     <nav class="main-menu">
@@ -39,6 +42,10 @@
         );
         wp_nav_menu($args);
       ?>
+        <div id="search">
+          <?php get_search_form();?>
+          <span class="fa fa-lg fa-search"></span>
+        </div>
     </nav>
   </div>
 </header>

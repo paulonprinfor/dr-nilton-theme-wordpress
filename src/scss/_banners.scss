@@ -104,4 +104,187 @@
 }
 
 
+@media (max-width:1500px) {
+  .banners {
+
+    .legenda {
+      position: absolute;
+      left: 47%;
+    }
+  }
+}
+
+@media (max-width:1400px) {
+  .banners {
+
+    .legenda {
+      position: absolute;
+      left: 45%;
+    }
+  }
+}
+
+@media (max-width:1300px) {
+  .banners {
+
+    .legenda {
+      position: absolute;
+      left: 42%;
+
+      h1 {
+        font-size: 5rem;
+      }
+    }
+  }
+}
+
+
+@media (max-width:1200px) {
+  .banners {
+
+    .legenda {
+      position: absolute;
+      left: 40%;
+
+      h1 {
+        font-size: 5rem;
+      }
+    }
+  }
+}
+
+@media (max-width:1024px){
+  .banners {
+    z-index: 1;
+    .button-nav-prev, .button-nav-next {
+      background:transparent;
+    }
+
+    .legenda {
+      position: absolute;
+      top: 41%;
+
+      h1 {
+        font-size: 5rem;
+      }
+    }
+
+    .banner-btn {
+      width: 15rem;
+      font-size: 2rem;
+      height: 4rem;
+      margin-left: 25rem;
+    }
+    
+    .slick-slide img {
+      margin-bottom: 5rem;
+    }
+  }
+}
+
+@media (max-width:850px) {
+  
+  .banners {
+
+    .legenda {
+      h1 {
+        font-size: 3rem;
+        width: 59%;
+        margin-left: 4rem;
+      }
+    }
+
+    .banner-btn {
+      margin-left: 16rem;
+    }
+  }
+}
+
+@media (max-width:600px) {
+  
+  .banners {
+
+    .banner-btn {
+      margin-left: 14rem;
+    }
+  }
+}
+
+@media (max-width:500px) {
+
+  .banners {
+
+    .legenda {
+      position: absolute;
+      top: 30%;
+  
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .banner-btn {
+      width: 12rem;
+      height: 3rem;
+      font-size: 1.5rem;
+      margin-left: 13rem;
+    }
+  }
+}
+
+@media (max-width:400px) {
+  .banners {
+
+    .legenda {
+      position: absolute;
+      top: 30%;
+      left: 30%;
+  
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .banner-btn {
+      width: 12rem;
+      height: 3rem;
+      font-size: 1.5rem;
+      margin-left: 9rem;
+    }
+  }
+
+  .article-treatments {
+
+    .article-treatments__carousel {
+
+      .slick-dots button {
+        width: 2.5rem;
+      }
+    }
+  }
+
+  .section-curiosities {
+    
+    .centered-container {
+      padding-top: 14rem;
+    }
+    .curiosities-content {
+
+      a {
+        margin-left: 21rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    .curiosities-content a span {
+      padding: 1rem;
+    }
+
+    .button a {
+      margin-left: 8rem;
+      width: 16rem;
+      font-size: 2rem;
+    }
+  }
+}
 
