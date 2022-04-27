@@ -111,7 +111,7 @@
   }
 }
 
-@media (max-width:600px) {
+@media (max-width:640px) {
   .article-footer {
 
     .centered-container {
@@ -124,12 +124,11 @@
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:420px) {
   .article-footer  {
 
     .centered-container {
-      padding: 1rem;
-
+      
       .article-footer__logo {
         margin-bottom: 11rem;
       }
@@ -162,7 +161,7 @@
 
       .article-footer__social-networks {
         position: absolute;
-        top:56%;
+        top:56%; 
       }
     }
   }
