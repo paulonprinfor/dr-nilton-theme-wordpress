@@ -12,7 +12,7 @@
         while($query->have_posts()) : $query->the_post();
        ?>
          <div>
-           <?php get_template_part('template-parts/cad-section') ?>
+           <?php get_template_part('template-parts/treatment-item') ?>
          </div>
        <?php endwhile;  wp_reset_postdata(); ?>
     </div>
