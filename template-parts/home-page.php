@@ -3,7 +3,7 @@
     <div class="home-page__content">
       <?php $home_page = get_page(38);?>
       <div class="home-image">
-        <img src="<?php echo get_the_post_thumbnail_url($home_age->ID)?>">
+        <img src="<?php echo get_the_post_thumbnail_url($home_page->ID)?>">
       </div>
       <div class="home-page-content__item">
         <div class="home-page__tilte">

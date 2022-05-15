@@ -1,0 +1,86 @@
+.tratamentos {
+  max-width: 100%;
+  padding: 10rem;
+  position: relative;
+  background: #fcf9f0;
+
+  .centered-container {
+    
+    .tratamentos-title {
+      display: flex;
+      margin-bottom: 5rem;
+
+      h1 {
+        font-size: 4.3rem;
+        background: $color-7;
+        width: 30rem;
+        border-radius: 20rem;
+        text-align: center;
+        color: $color-3;
+        margin-left: 4rem;
+      }
+
+      img {
+        position: relative;
+        left: -1rem;
+      }
+    }
+
+    .tratamentos-content {
+      h2 {
+        font-size: 4.6rem;
+        color: $color-11;
+      }
+    }
+
+    p {
+      font-size: 1.6rem;
+      width: 50%;
+      padding-top: 4rem;
+      line-height: 3rem;
+      margin-left: 4rem;
+      color: #939290;
+    }
+
+    .tratamentos-image {
+      position: absolute;
+      top: 5%;
+      left: 52.6%;
+    }
+
+    .networks-social {
+      margin-left: 4rem;
+
+      h3 {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+        color:#f27976;
+        margin-top: 4rem;
+      }
+
+      a {
+        text-decoration: none;
+        padding: 0.50rem;
+        #facebook {
+          color:#4268b3;
+          font-size: 4rem;
+        }
+   
+        #instagram {
+          font-size: 4rem;
+          color: #0071b1;
+        }
+   
+        #twitter {
+          color:#00a5f0;
+          font-size: 4rem;
+        }
+   
+        #whatsapp {
+          color:#8ed749;
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+}
